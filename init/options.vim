@@ -7,7 +7,7 @@ set guicursor=a:blinkon0        " Turn off the blinking cursor
 set notimeout                   " No command timeout
 set showmode                    " show editing mode
 set showcmd                     " display incomplete commands
-set mouse=a                     " Use mouse support in XTerm/iTerm.
+"set mouse=a                     " Use mouse support in XTerm/iTerm.
 
 " hide buffers instead of closing them
 set hidden
@@ -85,8 +85,9 @@ endif
 
 set expandtab                   " just use spaces instead of tab character
 
-autocmd FileType html setlocal shiftwidth=4 tabstop=4
-autocmd FileType ruby,cucumber,haml setlocal shiftwidth=2 softtabstop=2
-autocmd FileType javascript setlocal shiftwidth=4 softtabstop=4
-autocmd FileType php setlocal shiftwidth=4 tabstop=4
+autocmd FileType html setlocal shiftwidth=4 softtabstop=4
+autocmd FileType ruby,cucumber,haml,css,scss setlocal shiftwidth=2 softtabstop=2
+autocmd FileType javascript,eruby setlocal shiftwidth=4 softtabstop=4
+autocmd FileType php setlocal shiftwidth=4 softtabstop=4
+autocmd FileType c setlocal shiftwidth=4 softtabstop=4
 
