@@ -90,6 +90,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-scripts/candycode.vim'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'chriskempson/vim-tomorrow-theme'
+Bundle 'thoughtbot/vim-rspec'
 
 syntax on
 filetype plugin indent on
