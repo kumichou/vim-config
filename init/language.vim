@@ -14,6 +14,9 @@ autocmd BufWritePre *.m,*.h,*.c,*.mm,*.cpp,*.hpp call StripTrailingWhitespace()
 " Ruby, Rails
 autocmd BufWritePre *.rb,*.yml,*.js,*.css,*.less,*.sass,*.scss,*.html,*.xml,*.erb,*.haml call StripTrailingWhitespace()
 
+" Python
+autocmd BufWritePre *.py call StripTrailingWhiteSpace()
+
 " Java, PHP
 autocmd BufWritePre *.java,*.php,*.feature call StripTrailingWhitespace()
 
