@@ -4,3 +4,4 @@ doc
 bundle/*
 local/*
 tmp/*
+.DS_Store
