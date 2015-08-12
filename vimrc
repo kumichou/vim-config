@@ -82,6 +82,9 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'klen/python-mode'
+Bundle 'justmao945/vim-clang'
+Bundle 'rhysd/vim-clang-format'
+Bundle 'jplaut/vim-arduino-ino'
 
 call vundle#end()
 

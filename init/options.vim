@@ -91,3 +91,8 @@ autocmd FileType javascript,eruby setlocal shiftwidth=4 softtabstop=4
 autocmd FileType php setlocal shiftwidth=4 softtabstop=4
 autocmd FileType c setlocal shiftwidth=4 softtabstop=4
 
+" source .vimrc file if it present in working directory
+set exrc
+
+" restrict usage of some commands in non-default .vimrc files
+set secure
