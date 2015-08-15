@@ -14,7 +14,7 @@ The Powerline Vim plugin requires a patched Fontset for the Unicode characters t
 
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
-    git clone git@github.com:leandog/vim-config.git ~/.vim
+    git clone https://github.com/kumichou/vim-config.git ~/.vim
     cd ~/.vim
     postinstall.sh
 

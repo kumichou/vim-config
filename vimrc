@@ -16,7 +16,7 @@
 set nocompatible
 filetype off                 " required for Vundle
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
 " original repos on github
@@ -68,7 +68,6 @@ Bundle 'juvenn/mustache.vim'
 Bundle 'mgamba/edit-plus'
 Bundle 'othree/javascript-libraries-syntax.vim'
 Bundle 'vim-scripts/actionscript.vim--Leider'
-Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'majutsushi/tagbar'
 Bundle 'jgdavey/vim-blockle'
@@ -96,6 +95,10 @@ runtime! init/**.vim
 
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
+endif
+
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
 endif
 
 
