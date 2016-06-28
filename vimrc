@@ -10,16 +10,17 @@
 " merge between branches and repos.
 "
 " Please do not add configuration to this file, unless it *really* needs to
-" come first or last, like Pathogen and sourcing the machine-local config.
+" come first or last, like Vundle and sourcing the machine-local config.
 " Instead, add it to one of the files in .vim/init, or create a new one.
 
 set nocompatible
 filetype off                 " required for Vundle
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " original repos on github
+Bundle 'tpope/vim-eunuch'
 Bundle 'mileszs/ack.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'pangloss/vim-javascript'
@@ -84,6 +85,9 @@ Bundle 'klen/python-mode'
 Bundle 'justmao945/vim-clang'
 Bundle 'rhysd/vim-clang-format'
 Bundle 'jplaut/vim-arduino-ino'
+Bundle 'claco/jasmine.vim'
+Bundle 'vim-scripts/openscad.vim'
+Bundle 'davidhalter/jedi-vim'
 
 call vundle#end()
 
